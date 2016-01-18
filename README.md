@@ -14,3 +14,8 @@ $ https://github.com/adamvduke/gem-in-a-container.git
 $ cd gem-in-a-container
 $ galley run gem-in-a-container-nginx.dev
 ```
+
+### Running with [Docker Compose](https://docs.docker.com/compose)
+
+1. Install [Compose](https://docs.docker.com/compose/install)
+2. `docker-compose up`

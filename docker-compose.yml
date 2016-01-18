@@ -1,0 +1,13 @@
+gem-in-a-container:
+  image: adamvduke/gem-in-a-container
+  ports:
+   - "9180:9180"
+  volumes:
+   - /srv/geminabox/data/
+
+gem-in-a-container-nginx:
+  image: adamvduke/gem-in-a-container-nginx
+  ports:
+   - "5000:5000"
+  links:
+   - gem-in-a-container
