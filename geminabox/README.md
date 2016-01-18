@@ -36,7 +36,7 @@ docker run -it --rm -p 9180:9180 -e APP_SERVER=unicorn adamvduke/gem-in-a-contai
 
 ### Geminabox options
 
-[Geminabox](https://github.com) supports several configuration options which can be set through environment variables.
+[Geminabox](https://github.com/geminabox/geminabox) supports several configuration options which can be set through environment variables.
 
 Setting `RUBY_GEMS_PROXY` to a value other than `true` will cause geminabox to not fetch missing gems from [rubygems.org](rubygems.org).
 
