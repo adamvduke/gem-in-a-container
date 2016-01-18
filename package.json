@@ -1,0 +1,10 @@
+{
+  "name": "galleyfile",
+  "version": "1.0.0",
+  "description": "Package to include a requirement to Galley for our Galleyfile",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "galley": "^1.0.1"
+  }
+}
