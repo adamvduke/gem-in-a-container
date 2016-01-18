@@ -20,5 +20,5 @@ COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-VOLUME [$DATA_DIR]
+VOLUME $DATA_DIR
 EXPOSE $APP_PORT
