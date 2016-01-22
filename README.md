@@ -10,7 +10,7 @@ The [adamvduke/gem-in-a-container](gem-in-a-container) image runs the rack appli
 
 ```
 $ npm install -g galley-cli
-$ https://github.com/adamvduke/gem-in-a-container.git
+$ git clone https://github.com/adamvduke/gem-in-a-container.git
 $ cd gem-in-a-container
 $ galley run gem-in-a-container-nginx.dev
 ```
