@@ -11,7 +11,7 @@ if [ -z $APP_SERVER ]; then
   exit 1
 fi
 
-BUNDLE=$GEM_HOME/bin/bundle
+BUNDLE=$(which bundle)
 
 case $APP_SERVER in
 passenger)
