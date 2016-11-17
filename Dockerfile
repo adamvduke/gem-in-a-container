@@ -11,12 +11,12 @@ ENV ALLOW_REMOTE_FAILURE true
 ENV BUILD_LEGACY false
 ENV APP_SERVER puma
 
-COPY gemrc $HOME/.gemrc
-COPY Gemfile $APP_DIR/
+COPY gem-in-a-container/gemrc $HOME/.gemrc
+COPY gem-in-a-container/Gemfile $APP_DIR/
 RUN bundle install
 
-COPY config.ru $APP_DIR/
-COPY entrypoint.sh /entrypoint.sh
+COPY gem-in-a-container/config.ru $APP_DIR/
+COPY gem-in-a-container/entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 
