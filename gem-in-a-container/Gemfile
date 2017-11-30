@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'geminabox', '~> 0.12.4'
+gem 'geminabox', '~> 0.13.10'
 
 gem 'passenger', '~> 5.0.23'
 gem 'puma', '~> 3.0'
